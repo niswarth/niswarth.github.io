@@ -1,0 +1,52 @@
+@font-face { font-family: Sosa; src: url('toriAssets/sosa-regular-webfont.ttf'); } 
+
+body{
+	font-family: "Playwrite GB S", cursive;
+	font-weight:400;
+
+}
+
+.battleScene{
+	background-image:url("toriAssets/bg2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fighter{
+	width:100px;
+	position:relative;
+	margin-top:5%;
+	margin-left:30%;
+}
+
+.enemy{
+	width:100px;
+	position:relative;
+	margin-top:5%;
+	margin-left:25%;
+}
+
+.writing{
+	background-color:#EEE;
+	text-align:center;
+}
+
+p{
+	text-align:center;
+}
+
+textarea{
+	background-color:#FFF;
+	border: none;
+	height: 0;
+	margin-left:1%;
+	width: 80%;
+	overflow-x:hidden;
+	overflow-y: auto;
+	resize: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin-top: 1%;
+
+}
+
